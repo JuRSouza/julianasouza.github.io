@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #880606;
+    color: white;
+    padding: 1em 0;
+}
+
+h1 {
+    color: #880606; /* Define a cor do texto */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    text-align: justify; /* Alinha o texto aos dois lados */
+    width: 80%; 
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+}
+
+.imagem-formacao {
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+} 
+
+.titulo-form {
+    font-weight: bold;
+    color: #880606;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    width: 100%;
+    max-width: 400px;
+}
+
+footer {
+    text-align: right;
+    background-color: #880606;
+    color: white;
+    padding: 20px;
+}
+

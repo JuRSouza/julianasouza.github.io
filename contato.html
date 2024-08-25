@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="icon" href="titulo_cv.png" type="image/png">
+    <link rel="shortcut icon" href="titulo_cv.png" type="image/png">
+    <link rel="stylesheet" href="styles_contato.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Informações para Contato</h1>
+        <img src="contato.jpg" width="400" height="400" alt="Contato" class="imagem-contato">
+        <p class="titulo-form">Preencha o formulário abaixo:</p>
+        <form action="mailto:email@exemplo.com" method="post" enctype="text/plain">
+             <!-- required para para os campos serem obrigatórios -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <div class="rodapé-links">
+            <ul>
+                <li><a href="#"><img src="1165769_call_phone_telephone_icon.png" width="40" height="40" alt="(Ícone Contatos)" /> (11)9 9872-6105</a></li>
+            </ul>
+        </div>
+        <div class="rodapé-social">
+            <!-- deixar com # para ficar como link-->
+            <a href="#"><img src="317727_facebook_social media_social_icon.png" width="40" height="40" alt="Facebook"></a>
+            <a href="#"><img src="6636603_instagram_social media_social network_icon.png" width="40" height="40" alt="Instagram"></a>
+            <a href="#"><img src="317725_linkedin_social_icon.png" width="40" height="40" alt="Linkedin"></a>
+            <a href="#"><img src="1783351_chatting_messages_social media_whatsapp_internet_icon.png" width="40" height="40" alt="WhatsApp"></a>
+        </div>
+        <p>&copy; 2024 Juliana Souza. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
